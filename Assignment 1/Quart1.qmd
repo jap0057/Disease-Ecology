@@ -5,14 +5,10 @@ format: html
 editor: visual
 ---
 
-Find area of a circle with radius 5 cm.
+```{r} Find area of a circle with radius 5 cm. Formula: ¶ * r^2 where r is the radius.}
 
-Formula: ¶ \* r\^2
-
-where r is the radius.
-
-```         
 {r} # Function to calculate the area of a circle area_of_circle <- function(radius) {   area <- pi * radius^2   return(area) } radius <- 5 # from the example circle_area <- area_of_circle(radius) cat("The area of the circle with radius", radius, "is", circle_area, "\n")
+
 ```
 
 ![A raccoon in the forest](raccoon-outdoors.jpg)
